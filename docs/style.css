@@ -1,0 +1,75 @@
+body{
+    background-color: blueviolet;
+}
+.main-container
+{
+    width: 400px;
+    height: 550px;
+    background-color:white;
+    
+    
+    margin-left: 575px;
+    border: 2px solid ;
+    margin-top: 100px;
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+.display-window
+{
+    width:350px;
+    padding: 10px;
+    height: 50px;
+    display: block;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-left: 12px;
+    list-style: none;
+    font-size: 50px;
+    text-align: end;
+    font-weight: bold;
+    overflow: hidden;
+}
+.nums
+{
+    position: relative;
+    margin-top: 10px;
+    width: 370px;
+    border: none;
+    margin-left: 12px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+button
+{
+    display: block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border: 2px solid;
+            border-radius: 50%;
+            text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 35px;
+   background-color: blanchedalmond;
+}
+
+.number:hover{
+    background-color:green;
+}
+.operator{
+    background-color:blanchedalmond;
+}
+.operator:hover{
+    background-color: red;
+}
